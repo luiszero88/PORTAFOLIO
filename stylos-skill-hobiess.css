@@ -1,0 +1,56 @@
+
+    .skills-hobiess{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 250px;
+    }
+    .iconos-lista{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    }
+    .iconos{
+    width: 80px;
+    height: 80px;
+    margin: 0px 60px 2px 60px;
+    }
+
+    .iconos:hover{
+    width: 90px;
+    height: 85px;
+    transition: 1s;
+    }
+        /*responsive tablet*/
+    @media (max-width:600px){
+        /*seccion de skills*/
+    .skills-hobiess{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    }
+    .iconos-lista{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    }
+
+    /*responsive movil*/
+    @media (max-width:400px){
+        /*seccion de skills*/
+    .skills-hobiess{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+        }
+    .iconos-lista{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        }
+    }

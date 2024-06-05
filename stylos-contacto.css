@@ -1,0 +1,232 @@
+.campo-informacion {
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+
+.contacto-imagen{
+ height: 670px;
+ width: 500px;
+ margin-top: 40px;
+}
+
+.estructura-contenedor{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    gap:1.5rem;
+}
+
+.contacto-titulo{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 3rem; 
+    padding-bottom: 0.5px;
+ }
+
+.contacto-pregunta{
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.5rem;
+}
+.contacto-texto{
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.5rem;
+}
+
+.input-label{
+    color: #A2A2A2;
+}
+
+.contacto-input{
+    box-sizing: border-box;
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    border-bottom: solid 2px #9e0500;
+    width: 656px;
+    height: 58px;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.contacto-input::placeholder, .contacto-textarea::placeholder{
+    visibility: hidden;
+
+}
+
+.contacto-input:focus, .contacto-textarea:focus{
+  outline: none;
+}
+
+.input-label,.textarea-label {
+    position: absolute;
+    font-family: 'Raleway';
+    top:25px;
+    left:20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10px;
+    transition: all 0.25s;
+    
+}
+
+.contacto-textarea {
+    margin-top: 1px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    border:none;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    font-size: 16.28px;
+    resize: none;
+    border-bottom: solid 2px #9e0500;
+}
+.textarea-label{
+    color: #A2A2A2;
+}
+.boton-enviar{
+    width: 165px;
+    height: 51px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    background-color: #f80000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.boton-enviar:hover{
+  width: 185px;
+  height: 65px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  background-color: #f80000;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 150ms;
+}
+
+.contacto-input:not(:placeholder-shown) + .input-label,
+.contacto-input:focus + .input-label,
+.contacto-textarea:not(:placeholder-shown) + .textarea-label,
+.contacto-textarea:focus + .textarea-label {
+  font-size: 14px;
+  top: 10px;
+  transition: all 0.25s;
+}
+
+  .input-container--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-container--invalid .contacto-input {
+    border: 4px solid #ff0000;
+    border-radius: 7px;
+  }
+  
+  .input-container--invalid .input-label {
+    color: #ff0000;
+    font-weight: 700;
+  }
+  
+  .input-message-error {
+    display: none;
+  }
+  
+  .input-container--invalid .input-message-error {
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 1.1rem;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  @media (max-width:600px){
+    /*seccion de contacto*/
+    .contacto-imagen{
+        display: none;
+    }
+    .contacto-titulo{
+       font-size: 30px;
+    }
+    .contacto-pregunta{
+        font-size: 20px;
+    }
+    .contacto-texto{
+        width: 80%;
+        font-size: 12px;
+    }
+    .contacto-input{
+        width: 280px;
+    }
+    .contacto-textarea{
+        width: 280px;
+    }
+    
+    }
+      /*responsive tablet*/
+    @media (max-width:600px){
+      /*seccion de contacto*/
+      .contacto-imagen{
+          display: none;
+      }
+      .contacto-titulo{
+         font-size: 30px;
+      }
+      .contacto-pregunta{
+          font-size: 20px;
+      }
+      .contacto-texto{
+          width: 80%;
+          font-size: 12px;
+      }
+      .contacto-input{
+          width: 280px;
+      }
+      .contacto-textarea{
+          width: 280px;
+      }
+      
+      }
+    
+      /*responsive movil*/
+  @media (max-width:400px){
+    /*seccion de contacto*/
+    .contacto-imagen{
+        display: none;
+    }
+    .contacto-titulo{
+       font-size: 30px;
+    }
+    .contacto-pregunta{
+        font-size: 20px;
+    }
+    .contacto-texto{
+        width: 80%;
+        font-size: 12px;
+    }
+    .contacto-input{
+        width: 280px;
+    }
+    .contacto-textarea{
+        width: 280px;
+    }
+    
+    }

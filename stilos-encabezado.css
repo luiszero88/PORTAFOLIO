@@ -1,0 +1,204 @@
+html{
+    /*desliza cuando hago click en los links del menu*/
+    scroll-behavior: smooth;
+}
+
+.body{
+    background-color: rgb(197, 196, 196);
+}
+/*seccion de encabezado*/
+.contenedor-encabezado{
+    display: flex;
+    flex-wrap: wrap ;
+}
+.imagen_estrella{
+    width: 20px;
+    height: 20px;
+}
+.titulo{
+    display: flex;
+    margin-left: 0%;
+}
+.navegacion-panel{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lista-menu{
+    margin-left: 50%;
+    display: flex;
+}
+.item{
+    display: flex;
+    margin: 0px 20px 0px 2px;
+}
+.contenedor-imagen{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    margin-left: 40%;
+    border-radius: 220px 220px 220px 220px;
+}
+.contenedor-contexto{
+    display: flex;
+    flex-direction: column;
+}
+.descripcion-texto{
+    width: 30%;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 7%;
+    font-size: 30px;
+}
+.sobremi-main{
+    background-color: rgb(197, 196, 196);
+    width: 40%;
+}
+.sobremi-main:hover{
+    background-color: rgb(192, 191, 191);
+    width: 40%;
+}
+.sobre-mi-titulo{
+    margin-top: 15%;
+    font-size: 30PX;
+    font-style: italic;
+}
+.parrafo{
+    font-style: italic;
+}
+.red{
+    padding-top: 5%;
+    font-size: 30px;
+    font-style: italic;
+}
+.contenedor-links{
+    
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 280px;
+}
+.logo-red{
+    width: 20px;
+    height: 20px;
+}
+    /*responsive tablet*/
+@media (max-width:600px){
+    /*seccion de encabezado*/
+    .contenedor-encabezado{
+    padding-left: 10%;
+    }
+    .lista-menu{
+    margin-left: 0%;
+    }
+    .item{
+        font-size: 10px;
+        display: flex;
+        margin: 0px 5px 0px 0px;
+    }
+    .contenedor-imagen{
+        width: 140px;
+        height: 140px;
+        display: flex;
+        margin-left: 53%;
+        margin-top: 5%;
+        
+    }
+    .descripcion-texto{
+        width: 30%;
+        margin-left: 15%;
+        position: absolute;
+        margin-top: 15%;
+        font-size: 12px;
+    }
+    .sobremi-main{
+        background-color: rgb(197, 196, 196);
+        width: 100%;
+    }
+    .sobre-mi-titulo{
+        margin-left: 12%;
+        margin-top: 15%;
+        font-size: 20PX;
+        font-style: italic;
+    }
+    .parrafo{
+       display: flex;
+       padding-left: 15%;
+       width: 30%;
+        font-size: 10px;
+        font-style: italic;
+    }
+     /*seccion de redes*/
+    .red{
+        padding-left: 25%;
+        padding-top: 5%;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .contenedor-links{
+        padding-left: 15%;
+    }
+    .logo-red{
+        padding-left: 5%;
+    }
+}
+   /*responsive movil*/
+@media (max-width:400px){
+    /*seccion de encabezado*/
+    .contenedor-encabezado{
+    padding-left: 10%;
+    }
+    .lista-menu{
+    margin-left: 0%;
+    }
+    .item{
+        font-size: 10px;
+        display: flex;
+        margin: 0px 5px 0px 0px;
+    }
+    .contenedor-imagen{
+        width: 140px;
+        height: 140px;
+        display: flex;
+        margin-left: 53%;
+        margin-top: 5%;
+        
+    }
+    .descripcion-texto{
+        width: 30%;
+        margin-left: 15%;
+        position: absolute;
+        margin-top: 15%;
+        font-size: 12px;
+    }
+    .sobremi-main{
+        background-color: rgb(197, 196, 196);
+        width: 100%;
+    }
+    .sobre-mi-titulo{
+        margin-left: 12%;
+        margin-top: 15%;
+        font-size: 20PX;
+        font-style: italic;
+    }
+    .parrafo{
+       display: flex;
+       padding-left: 15%;
+       width: 30%;
+        font-size: 10px;
+        font-style: italic;
+    }
+     /*seccion de redes*/
+    .red{
+        padding-left: 25%;
+        padding-top: 5%;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .contenedor-links{
+        padding-left: 15%;
+    }
+    .logo-red{
+        padding-left: 5%;
+    }
+}
